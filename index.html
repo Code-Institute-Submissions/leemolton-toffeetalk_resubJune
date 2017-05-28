@@ -14,6 +14,13 @@
         body {
             padding-top: 70px;
         }
+        #background-graphic {
+            background color: blue;
+        }
+        nav navbar-nav {
+            color: blue;
+        }
+
     </style>
 </head>
 
@@ -23,6 +30,7 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="/">Toffee Talk</a>
             </div>
+        
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="C:\Users\leemo\toffeetalk\templates\home.html"> Home </a></li>
                 <li><a href="C:\Users\leemo\toffeetalk\templates\fixt.html"> Fixtures and Results </a></li>
@@ -31,8 +39,9 @@
                 <li><a href="C:\Users\leemo\toffeetalk\templates\login.html"> Log in </a></li>
             </ul>
         </div>
+
         </nav>
-        
+            
         <div ng-view>
         <!-- This is our ng-view. The contents of the files in the templates directory are loaded here by Angular
         when we click on the appropriate link. app.js decides which file is loaded. -->
