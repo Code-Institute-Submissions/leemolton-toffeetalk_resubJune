@@ -1,0 +1,44 @@
+html {
+	width: 100%;
+}
+
+body {
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	color: #fff;
+}
+
+h1 {
+	color: #fff;
+}
+
+h2 {
+	color: blue;
+	font-size: x-large;
+	width: 25%;
+}
+
+.row {
+	width: 35%;
+	font-size: large;
+}
+
+.container {
+	text-align: center;
+}
+
+nav navbar-nav navbar-right {
+	color: white;
+}
+
+footer {
+	float: left;
+	padding-top: 5px;
+	background-color: #eee;
+	text-align: left;
+	height: 50px;
+}
