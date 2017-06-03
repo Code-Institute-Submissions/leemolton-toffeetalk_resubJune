@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	background-color: blue;
+	background-color: black;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -25,6 +25,10 @@ h2 {
 	width: 25%;
 }
 
+h3 {
+	color: white;
+}
+
 h4 {
 	color: white;
 }
@@ -40,6 +44,7 @@ h4 {
 
 .container2 {
 	text-align: left;
+	color: white;
 }
 
 .log{
