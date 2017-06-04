@@ -48,6 +48,15 @@ h4 {
 	color: white;
 }
 
+.container3 {
+	width: 350px;
+	height: 435px;
+	text-align: center;
+	border-style:double;
+	border-radius: 15%;
+	border-color: white;
+}
+
 .logo{
 }
 
