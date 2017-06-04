@@ -1,17 +1,17 @@
 Welcome to my README page about Toffee Talk
 
-HOME PAGE  
+Home page 
 An introduction to the Toffee Talk web site
 
-FIXTURES AND RESULTS
+Fixtures and Results
 A comprehensive list of all Everton’s fixtures for last season and next season when the fixtures are released in 2 weeks.
 
-TICKET INFO
+Ticket Info
 A list of forthcoming fixtures in July and ticket details for people to buy. The user must be logged in though to buy a ticket online.
 
-FAN ARTICLES
+Fan Articles
 A list of fan articles sent in to Toffee Talk and details of how to send any new articles to the website.
 
-LOG IN
+Log in
 For users to log in with User name and password to be able to buy tickets online.
 

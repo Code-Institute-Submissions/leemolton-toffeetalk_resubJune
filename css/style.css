@@ -44,8 +44,17 @@ h4 {
 }
 
 .container2 {
-	text-align: left;
+	text-align: center;
 	color: white;
+}
+
+.container3 {
+	width: 350px;
+	height: 435px;
+	text-align: center;
+	border-style:double;
+	border-radius: 15%;
+	border-color: white;
 }
 
 .logo{
@@ -54,7 +63,6 @@ h4 {
 nav navbar-fixed-bottom navbar-default {
 	height: 20%;
 }
-
 
 nav navbar-nav navbar-right {
 	color: white;
