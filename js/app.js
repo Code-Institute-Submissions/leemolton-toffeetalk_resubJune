@@ -13,8 +13,8 @@ angular.module('sampleApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/about.html',
         controller: "HomeController"
     })
-    .when('/contact', {
-    	templateUrl: 'templates/contact.html',
-        controller: "HomeController"
+     .when('/log in', {
+        templateUrl: 'templates/login.html',
+        controller: "loginController"
     });
 });

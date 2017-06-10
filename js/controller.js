@@ -2,7 +2,7 @@ angular.module('RouteControllers', [])
     .controller('HomeController', function($scope) {
         $scope.title = "Toffee Talk";
     });
-     .controller('RegisterController', function($scope) {
+     .controller('loginController', function($scope) {
  
         $scope.registrationUser = {};
  

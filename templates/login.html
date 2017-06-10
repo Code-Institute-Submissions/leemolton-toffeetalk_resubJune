@@ -1,23 +1,53 @@
-<div class="container">
-<div class=".logo">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="C:\Users\leemo\OneDrive\Documents\Web design course\bootstrap-3.3.7-dist\css\bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="C:\Users\leemo\toffeetalk\css\style.css">
+
+<style>
+.logo {
+}
+</style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="container">
+<ul class="nav navbar-nav navbar-right">
+                <li><a href="C:\Users\leemo\toffeetalk\templates\home.html"> Home </a></li>
+                <li><a href="C:\Users\leemo\toffeetalk\templates\fixt.html"> Fixtures and Results </a></li>
+                <li><a href="C:\Users\leemo\toffeetalk\templates\ticket.html"> Ticket Info </a></li>
+                <li><a href="C:\Users\leemo\toffeetalk\templates\fanart.html"> Fan Articles </a></li>
+                <li><a href="C:\Users\leemo\toffeetalk\templates\login.html"> Log in </a></li>
+            </ul>
+</nav>
+</nav>
+
+<figure>
+
+<nav class=".logo">
     <img id="landing-image" src="C:\Users\leemo\OneDrive\Pictures\crest.jpg" alt="logo" width="200">
-        </div>
-    <div class="row">
-        <div class="col-sm-6">
+        </figure>
+    <nav class="container">
+    <nav class="row">
+        <nav class="col-sm-6">
             <form name="registrationForm" data-ng-submit="submitForm()" novalidate>
-                <div class="form-group">
+                <nav class="form-group">
                     <label>Name</label>
                     <input type="text" name="name" class="form-control" data-ng-model="user.username" required>
                     <p data-ng-show="registrationForm.name.$pristine" class="help-block">Your username is required</p>
-                </div>
-                <div class="form-group">
+                </nav>
+                <nav class="form-group">
                     <label>Password</label>
                     <input type="password" name="password" class="form-control" data-ng-model="user.password" required>
                     <p data-ng-show="registrationForm.password.$pristine" class="help-block">Your password is required</p>
-                </div>
+                </nav>
  
-                <button type="submit" class="btn btn-primary" data-ng-disabled="registrationForm.$invalid">Register</button>
+                <button type="submit" class="btn btn-primary" data-ng-disabled="registrationForm.$invalid">Log in</button>
             </form>
-        </div>
-    </div>
-</div>
+        </nav>
+    </nav>
+</nav>
