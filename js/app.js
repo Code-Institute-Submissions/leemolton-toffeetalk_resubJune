@@ -9,8 +9,16 @@ angular.module('sampleApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/home.html',
         controller: "HomeController"
     })
-    .when('/about', {
-        templateUrl: 'templates/about.html',
+    .when('/Fixtures and Results', {
+        templateUrl: 'templates/fixt.html',
+        controller: "HomeController"
+    })
+    .when('/Ticket Info', {
+        templateUrl: 'templates/ticket.html',
+        controller: "HomeController"
+    })
+    .when('/Fan Articles', {
+        templateUrl: 'templates/fanart.html',
         controller: "HomeController"
     })
      .when('/log in', {
