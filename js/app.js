@@ -9,19 +9,19 @@ angular.module('sampleApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/home.html',
         controller: "HomeController"
     })
-    .when('/Fixtures and Results', {
+    .when('/fixtures', {
         templateUrl: 'templates/fixt.html',
         controller: "HomeController"
     })
-    .when('/Ticket Info', {
+    .when('/tickets', {
         templateUrl: 'templates/ticket.html',
         controller: "HomeController"
     })
-    .when('/Fan Articles', {
+    .when('/fanart', {
         templateUrl: 'templates/fanart.html',
         controller: "HomeController"
     })
-     .when('/log in', {
+     .when('/login', {
         templateUrl: 'templates/login.html',
         controller: "loginController"
     });
