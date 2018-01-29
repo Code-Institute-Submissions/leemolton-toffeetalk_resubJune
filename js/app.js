@@ -9,7 +9,7 @@ angular.module('sampleApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/home.html',
         controller: "HomeController"
     })
-    .when('/fixtures', {
+    .when('/fixt', {
         templateUrl: 'templates/fixt.html',
         controller: "HomeController"
     })
