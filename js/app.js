@@ -21,8 +21,12 @@ angular.module('sampleApp').config(function($locationProvider, $routeProvider) {
         templateUrl: 'templates/fanart.html',
         controller: "HomeController"
     })
-     .when('/login', {
+     .when('/contact', {
+        templateUrl: 'templates/form-template.html',
+        controller: "HomeController"
+    })
+    .when('/login', {
         templateUrl: 'templates/login.html',
-        controller: "loginController"
+        controller: "loginController" 
     });
 });
