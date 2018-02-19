@@ -17,8 +17,7 @@ HTML, CSS and JavaScript: Front end languages that give the application structur
 
 TESTING
 Manual testing for the application was undertaken and it passed. A sample of the tests conducted are as follows:
-1. Testing the responsiveness of the application
-2. Testing buttons on the header to access pages and hyperlinks.
+1. Testing buttons on the header to access pages and hyperlinks.
 
 AUTHORS
 This project was created by Lee Molton and was completed as part of Code Institute’s Mentored Online Full Stack Web Development course in 2018.
