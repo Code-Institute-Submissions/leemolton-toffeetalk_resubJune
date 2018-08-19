@@ -9,6 +9,14 @@ body {
 	padding-top: 40px;
 }
 
+background-graphic {
+    background color: blue;
+}
+
+nav navbar-nav {
+    color: blue;
+}
+
 p {
 	color: #fff;
 }
@@ -75,4 +83,9 @@ footer {
 	text-align: left;
 	height: 10px;
 }
+
+.no-click {
+	pointer-events: none;
+}
+
 
