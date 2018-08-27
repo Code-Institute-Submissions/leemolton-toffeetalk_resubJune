@@ -89,4 +89,92 @@ footer {
 	pointer-events: none;
 }
 
+.image {
+	height: 300;
+	width: 400;
+	float: left;
+	width: 33.33%;
+}
+
+.ross-image {
+	float: left;
+	flex-flow: row;
+}
+
+.rossinfo {
+	font-family: Arial;
+	font-size: medium;
+	color: red;
+	padding: 20px;
+	width: 50%;
+	text-align: right;	
+}
+
+legend {
+    font-size: 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 4px 15px;
+    color: black;
+}
+
+label.field {
+    display: block;
+    text-align: right;
+    width: 100px;
+    color: black;
+    float: left;
+}
+
+input {
+    width: 200px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: black;
+    font: black;
+}
+
+.field {
+    padding: 6px 8px;
+    color: black;
+}
+
+#currency {
+    width: 220px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: black;
+}
+
+fieldset {
+	width: 550px;
+	border: 1px solid #999;
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 100px;
+	background-color: grey;
+}
+
+ #checkbox {
+    padding: 6px 8px;
+    color: black;
+}
+
+#checkbox input {
+    width: 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+#radio {
+    padding: 6px 8px;
+    color: black;
+}
+
+#radio input {
+    width: 25px;
+    margin-top: 10px;
+    color: black;
+}
 
