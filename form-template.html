@@ -12,23 +12,20 @@
          #container{
             width: 550px;
             margin: auto;
-            color: pink;
          }
 
          legend{
             font-size: 30px;
-            background-color: black;
+            background-color: white;
             border-radius: 5px;
             border: 1px solid #999;
-            padding: 4px 15px;
-            color: black;
+            padding: 4px 10px;
          }
             
          label.field{
             display: block;
             text-align: right;
             width: 100px;
-            color: black;
             float: left;
          }
 
@@ -37,19 +34,16 @@
             border-radius: 5px;
             padding: 6px 8px;
             color: black;
-            font: black;
          }
 
          .field{
             padding: 6px 8px;
-            color: black;
          }
 
          #currency{
              width: 220px;
              border-radius: 5px;
              padding: 6px 8px;
-             color: black;
          }
 
          fieldset{
@@ -57,41 +51,37 @@
             border: 1px solid #999;
             border-radius: 20px;
             padding: 20px;
-            margin-bottom: 100px;
+            margin-bottom: 30px;
             background-color: grey;
          }
 
          #checkbox{
             padding: 6px 8px;
-            color: black;
          }
 
          #checkbox input {
             width: 25px;
             margin-top: 20px;
-            color: white;
          }
 
          #radio {
             padding: 6px 8px;
-            color: black;
          }
 
          #radio input {
             width: 25px;
             margin-top: 10px;
-            color: black;
          }
 
    </style>
    </head>
    <body>
-         <div class="container">
+         <div id="container">
          <form method="post" action="myformsubmit.html">
-         <h1>Contact Us</h1>
+         <legend>Contact Us</legend>
 
-         <fieldset class="input-boxes">
-         <p><label for="Name" class="field">Namesssssss:</label>
+         <fieldset class="input-boxes">            
+         <p><label for="Name" class="field">Name:</label>
          <input id="text" id="name" placeholder="required field"/></p>
 
          <p><label for="Age" class="field">Age:</label>
@@ -112,7 +102,7 @@
          </fieldset>
 
          <fieldset id="checkbox">
-            <h1>Enquiry</h1>
+            <legend>Enquiry</legend>
             <input id="ticket" type="checkbox" value="Ticket"/>
             <label for="Ticket">Ticketing</label>
             <input id="commercial" type="checkbox" value="commercial"/>

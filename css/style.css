@@ -47,7 +47,7 @@ h4 {
 }
 
 .container {
-	text-align: center;
+	text-align: right;
 }
 
 .container2 {
@@ -65,7 +65,13 @@ h4 {
 	font-size: medium;
 }
 
-.logo{
+.logo {
+}
+
+.headline {
+	color: blue;
+	text-align: right;
+	word-wrap: break-word;
 }
 
 nav navbar-fixed-bottom navbar-default {
@@ -78,11 +84,11 @@ nav navbar-nav navbar-right {
 }
 
 footer {
-	padding-top: 30px;
+	
 	background-color: #eee;
 	float: left;
 	text-align: left;
-	height: 10px;
+	height: 5px;
 }
 
 .no-click {
@@ -90,8 +96,8 @@ footer {
 }
 
 .image {
-	height: 300;
-	width: 400;
+	height: 300px;
+	width: 300px;
 	float: left;
 	width: 33.33%;
 }
