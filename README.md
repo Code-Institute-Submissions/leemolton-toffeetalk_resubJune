@@ -4,7 +4,7 @@ This is a website about Everton Football Club and provides visitors with an info
 
 
 <h2>UX</h2>
-This website is for football fans for essentially Everton fans, I wanted to be informative and insightful with interaction welcomed from fans through fan articles.  
+This website is for football fans for essentially Everton fans, I wanted it to be informative and insightful with interaction welcomed from fans through fan articles.  
 
 
 <h3>Features</h3>
@@ -17,7 +17,7 @@ HTML, CSS and JavaScript: Front end languages that give the application structur
 
 <h2>Testing</h2>
 Manual testing for the application was undertaken and it passed. A sample of the tests conducted are as follows:
-Testing buttons on the header to access pages and hyperlinks.
+Testing buttons on the header to access pages. The hyperlinks to the fan articles and the fixtures on the Fixtures and Results page have been tested and work fully. The form on the Contact Us page has been tested by entering information into all of the boxes, it submitted successfully. 
 
 
 <h2>Deployment</h2>
