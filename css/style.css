@@ -7,6 +7,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 40px;
+	margin: 0;
 }
 
 background-graphic {
@@ -25,6 +26,7 @@ h1 {
 	color: #fff;
 	size: 240px;
 	font-family: verdana;
+	text-align: center;
 }
 
 h2 {
@@ -41,28 +43,54 @@ h4 {
 	color: white;
 }
 
+h5 {
+	color: blue;
+}
+
 .row {
-	width: 35%;
+	width: 80%;
 	font-size: large;
 }
 
 .container {
-	text-align: right;
+	text-align: center;
 }
 
 .container2 {
-	text-align: left;
+	
 	color: white;
 }
 
 .container3 {
+	height: 300px;
+	text-align: center;
+	font-size: medium;
+}
+
+.sub-heading {
+	float: right;
+}
+
+.box_title {
 	width: 350px;
 	height: 300px;
 	text-align: center;
-	border-style:double;
+	border-style: double;
 	border-radius: 15%;
-	border-color: white;
+	display: inline-block;
 	font-size: medium;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo_title {
+	width: 350px;
+	height: 300px;
+	display: inline-block;
+	flex-flow: row;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .logo {
@@ -78,32 +106,31 @@ nav navbar-fixed-bottom navbar-default {
 	height: 20%;
 }
 
+.btn-primary {
+	height: 25px;
+}
 
 nav navbar-nav navbar-right {
 	color: white;
 }
 
 footer {
-	
 	background-color: #eee;
-	float: left;
-	text-align: left;
-	height: 5px;
+	bottom: 30px;
+	width: 100%;
+	position: absolute;
 }
 
 .no-click {
 	pointer-events: none;
 }
 
-.image {
-	height: 300px;
-	width: 300px;
-	float: left;
-	width: 33.33%;
+.photo_title {
+	height: 500px;
+	width: 50%;
 }
 
 .ross-image {
-	float: left;
 	flex-flow: row;
 }
 
@@ -184,3 +211,7 @@ fieldset {
     color: black;
 }
 
+.form-submit {
+	color: white;
+	text-align: center;
+}
