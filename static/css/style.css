@@ -1,0 +1,231 @@
+html {
+	width: 100%;
+}
+
+body {
+	background-color: black;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 40px;
+	margin: 0;
+}
+
+background-graphic {
+    background color: blue;
+}
+
+nav navbar-nav {
+    color: blue;
+}
+
+p {
+	color: #fff;
+}
+
+h1 {
+	color: #fff;
+	size: 240px;
+	font-family: verdana;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-size: x-large;
+	width: 25%;
+}
+
+h3 {
+	color: white;
+}
+
+h4 {
+	color: white;
+}
+
+h5 {
+	color: blue;
+}
+
+.row {
+	width: 80%;
+	font-size: large;
+}
+
+.container {
+	text-align: center;
+}
+
+.container2 {
+	color: white;
+}
+
+.container3 {
+	height: 300px;
+	text-align: center;
+	font-size: medium;
+}
+
+.container4 {
+	width: 50%;
+	float: left;
+}
+
+.container5 {
+	width: 50%;
+	float: right;
+}
+
+.sub-heading {
+	float: right;
+}
+
+
+.box_title {
+	width: 350px;
+	height: 300px;
+	text-align: center;
+	border-style: double;
+	border-radius: 15%;
+	display: inline-block;
+	font-size: medium;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo_title {
+	width: 50%;
+	height: 500px;
+	display: inline-block;
+	flex-flow: row;
+	margin-left: auto;
+	margin-right: auto;}
+}
+
+.logo {
+}
+
+.fixtures-margin-top {
+	
+}
+
+.headline {
+	color: blue;
+	text-align: right;
+	word-wrap: break-word;
+}
+
+nav navbar-fixed-bottom navbar-default {
+	height: 20%;
+}
+
+.btn-primary {
+	height: 25px;
+}
+
+nav navbar-nav navbar-right {
+	color: white;
+}
+
+footer {
+	background-color: #eee;
+	bottom: 30px;
+	width: 100%;
+	position: absolute;
+}
+
+.no-click {
+	pointer-events: none;
+}
+
+.ticket-image {
+	height: 30px;
+	width: 30px;
+}
+
+.ross-image {
+	flex-flow: row;
+}
+
+.rossinfo {
+	font-family: Arial;
+	font-size: medium;
+	color: red;
+	padding: 20px;
+	width: 50%;
+	text-align: right;	
+}
+
+legend {
+    font-size: 30px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 4px 15px;
+    color: black;
+}
+
+label.field {
+    display: block;
+    text-align: right;
+    width: 100px;
+    color: black;
+    float: left;
+}
+
+input {
+    width: 200px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: black;
+    font: black;
+}
+
+.field {
+    padding: 6px 8px;
+    color: black;
+}
+
+#currency {
+    width: 220px;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: black;
+}
+
+fieldset {
+	width: 550px;
+	border: 1px solid #999;
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 100px;
+	background-color: grey;
+}
+
+ #checkbox {
+    padding: 6px 8px;
+    color: black;
+}
+
+#checkbox input {
+    width: 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+#radio {
+    padding: 6px 8px;
+    color: black;
+}
+
+#radio input {
+    width: 25px;
+    margin-top: 10px;
+    color: black;
+}
+
+.form-submit {
+	color: white;
+	text-align: center;
+}
