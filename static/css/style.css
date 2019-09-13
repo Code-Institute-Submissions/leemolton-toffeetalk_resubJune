@@ -1,7 +1,4 @@
-html {
-	width: 100%;
-}
-
+/*--------------Main Body------------*/
 body {
 	background-color: black;
 	margin-left: auto;
@@ -12,10 +9,6 @@ body {
 
 background-graphic {
     background color: blue;
-}
-
-nav navbar-nav {
-    color: blue;
 }
 
 p {
@@ -61,7 +54,7 @@ h5 {
 }
 
 .container3 {
-	height: 300px;
+	height: 90%;
 	text-align: center;
 	font-size: medium;
 }
@@ -80,6 +73,47 @@ h5 {
 	float: right;
 }
 
+/*--------------Headlines------------*/
+.headline {
+	color: blue;
+	text-align: right;
+	word-wrap: break-word;
+}
+
+.logo {
+}
+
+/*--------------Fixtures page------------*/
+.fixtures-margin-top {	
+}
+
+.panel-group {
+	width: 60%;
+}
+
+/*--------------Buttons------------*/
+.btn-primary {
+	height: 25px;
+}
+
+/*--------------Navigation bar------------*/
+nav navbar-nav navbar-right {
+	color: white;
+}
+
+nav navbar-fixed-bottom navbar-default {
+	height: 20%;
+}
+
+nav navbar-nav {
+    color: blue;
+}
+k
+/*--------------Buying tickets------------*/
+.ticket-image {
+	height: 30px;
+	width: 30px;
+}
 
 .box_title {
 	width: 350px;
@@ -94,56 +128,11 @@ h5 {
 	margin-right: auto;
 }
 
-.photo_title {
-	width: 50%;
-	height: 500px;
-	display: inline-block;
-	flex-flow: row;
-	margin-left: auto;
-	margin-right: auto;}
-}
-
-.logo {
-}
-
-.fixtures-margin-top {
-	
-}
-
-.headline {
-	color: blue;
-	text-align: right;
-	word-wrap: break-word;
-}
-
-nav navbar-fixed-bottom navbar-default {
-	height: 20%;
-}
-
-.btn-primary {
-	height: 25px;
-}
-
-nav navbar-nav navbar-right {
-	color: white;
-}
-
-footer {
-	background-color: #eee;
-	bottom: 30px;
-	width: 100%;
-	position: absolute;
-}
-
 .no-click {
 	pointer-events: none;
 }
 
-.ticket-image {
-	height: 30px;
-	width: 30px;
-}
-
+/*--------------Fan Article images------------*/
 .ross-image {
 	flex-flow: row;
 }
@@ -157,6 +146,15 @@ footer {
 	text-align: right;	
 }
 
+.photo_title {
+	width: 40%;
+	height: 500px;
+	display: inline-block;
+	flex-flow: row;
+	margin-left: auto;
+	margin-right: auto;}
+}
+
 legend {
     font-size: 30px;
     background-color: black;
@@ -164,14 +162,6 @@ legend {
     border: 1px solid #999;
     padding: 4px 15px;
     color: black;
-}
-
-label.field {
-    display: block;
-    text-align: right;
-    width: 100px;
-    color: black;
-    float: left;
 }
 
 input {
@@ -194,16 +184,8 @@ input {
     color: black;
 }
 
-fieldset {
-	width: 550px;
-	border: 1px solid #999;
-	border-radius: 20px;
-	padding: 20px;
-	margin-bottom: 100px;
-	background-color: grey;
-}
-
- #checkbox {
+/*--------------Contact form------------*/
+#checkbox {
     padding: 6px 8px;
     color: black;
 }
@@ -225,7 +207,32 @@ fieldset {
     color: black;
 }
 
+label.field {
+    display: block;
+    text-align: right;
+    width: 100px;
+    color: black;
+    float: left;
+}
+
+fieldset {
+	width: 550px;
+	border: 1px solid #999;
+	border-radius: 20px;
+	padding: 20px;
+	margin-bottom: 100px;
+	background-color: grey;
+}
+
 .form-submit {
 	color: white;
 	text-align: center;
+}
+
+/*--------------Footer-----------*/
+footer {
+	background-color: #eee;
+	bottom: 30px;
+	width: 100%;
+	position: absolute;
 }
