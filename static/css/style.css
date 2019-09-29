@@ -192,7 +192,7 @@ input {
 
 #checkbox input {
     width: 25px;
-    margin-top: 20px;
+    margin-top: 10px;
     color: white;
 }
 
@@ -219,8 +219,8 @@ fieldset {
 	width: 550px;
 	border: 1px solid #999;
 	border-radius: 20px;
-	padding: 20px;
-	margin-bottom: 100px;
+	padding: 10px;
+	margin-bottom: 20px;
 	background-color: grey;
 }
 
