@@ -12,7 +12,7 @@ There is a fans page which has a link to fan articles sent in to Toffee Talk and
 
 The final page has a Contact form for users to communicate with the website. I decided to create an input form with input boxes and check boxes for the user to complete with their enquiry details. It is made as simple as possible to encourage users to complete the form rather than have several boxes and make it look difficult and unwieldy. There is a submit button for the user to submit the form and a message is displayed to let the user know that a response will be made in due course.
 
-I have created wireframes with my designs for each page <h2>Wireframes</h2>
+I have created wireframes with my designs for each page https://github.com/leemolton/toffeetalk/tree/master/wireframes
 
 
 <h3>Features</h3>
