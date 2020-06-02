@@ -249,11 +249,18 @@
 			        	<p>Do you want to know who Everton are playing and when?
 			        	Click on any month to see the fixtures and results.</p>
 			        	<p>Some of the highlights are:</p>
-			        	<ul class="sub-heading">
-			        		<li>The Merseyside Derbies - Sat 9 December away & Sat 7 April at home.</li>
-			        		<li>Man United at home - Mon 1 January.</li>
-			        		<li>Man City at home - Sat 31 March.</li>
-			        	</ul>
+			        		<button onclick="myFunction()">See big games coming up</button>	
+			        			<p id="demo"></p>
+			        			<p id="demo2"></p>
+			        			<script>
+			        			function myFunction() {
+			        				var text1="Merseyside Derbies - Sat 9 Dec & 7 April";
+			        				var text2="Man United at home - Mon 1 Jan";
+			        				document.getElementById("demo").innerHTML = text1;
+			        				document.getElementById("demo2").innerHTML = text2;
+			        			}
+			        			</script>
+			  
 	        		</div>
 	        	</div>
     		</div>
